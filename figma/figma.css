@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    width: 1366px;
+    padding: 17px 187px 18px 187px;
+    justify-content: center;
+    align-items: center;
+    gap: 276px;
+    background-color: #1F2B6C;
+}
+.nav{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px
+}
+a{
+    color: var(--white, #FCFEFE);
+    font-family:Work Sans,sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+button{
+    padding: 13px 35px;
+    border-radius: 50px;
+    background: var(--accent, #BFD2F8);
+}
+img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.button{
+    display: flex;
+    align-items: center;
+    gap:30px;
+}
+.header{
+    width: 1366px;
+    height: 80px;
+    flex-shrink: 0;
+    background: var(--white, #FCFEFE);
+}
+.logo{
+    height: 42px;
+    width: 193px;
+    margin-left: 187px;
+    margin-top: 19px;
+    margin-bottom: 19px;
+}
+.header{
+    width: 1366px;
+    height: 80px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container{
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 187px;
+}
+.phone{
+    display: flex;
+}
+.imagephone{
+    width: 40.198px;
+    height: 38.19px;
+    flex-shrink: 0;
+}
+.fontone{
+    color: var(--primary, #1F2B6C);
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.fonttwo{
+    color: var(--secondary, #159EEC);
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.background{
+    width: 1366px;
+    height: 550px;
+    flex-shrink: 0;
+    background-image: url(./image/Group\ 94.png);
+}
